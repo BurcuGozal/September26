@@ -10,7 +10,7 @@ public class VerizonBill {
 	double amountUsedInGB;
 	double pricePerGB;
 	double amountDue;
-	
+	private name;
 	
 	public VerizonBill() {
 		
