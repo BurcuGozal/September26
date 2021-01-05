@@ -27,7 +27,7 @@ public class VerizonBill {
 		
 	}
 	
-	public VerizonBill(String customerName, String address, long accountNo, double amountUsedInGB, double pricePerGB, double amountDue) {
+	public VerizonBill(CharSequence customerName, String address, long accountNo, double amountUsedInGB, double pricePerGB, double amountDue) {
 		
 		this(customerName, address, accountNo);
 		
